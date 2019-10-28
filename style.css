@@ -1,40 +1,29 @@
 .jumbotron img {
 	width: 250px;
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 }
 
 .jumbotron {
-	background-color: whitesmoke;
+	background-image: url("/img/jumbotron-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.navbar-nav {
-	margin-left: 50rem;
-}
-
-.navbar-brand {
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	color: goldenrod;
 
 
-}
 
-.navbar {
-	background-color: black;
-}
 
 .copyright {
-	background-color: black;
+	background-color: #121212;
 }
 
 .copyright-text {
-	color: goldenrod;
+	color: #ffff;
 }
 
 
-.nav-link {
-	color: gold;
-}
+
 
 .social-icons {
 	text-align: center;
@@ -53,15 +42,20 @@
 	border-bottom: none;
 }
 
+.social-icons li a :hover {
+	background-color: rgb(44, 41, 41);
+}
+
 .social-icons li img {
 	width: 40px;
 	height: 40px;
-	margin-right: 5px;
+	margin: auto;
+	padding: 5px;
 
 }
 
 .footer {
-	background-color: black;
+	background-color: #121212;
 }
 
 .smtext {
@@ -70,8 +64,12 @@
 }
 
 hr {
-	background-color: antiquewhite;
-	align-content: center;
+	width: 5%;
+	border-style: none;
+	border-color: #ffff;
+	border-top-style: dotted;
+	border-width: 5px;
+
 }
 
 .lead {
@@ -82,6 +80,101 @@ hr {
 	background-color: whitesmoke;
 }
 
-.navbar-toggler-icon {
-	background-color: black;
+
+
+.display-4 {
+	color: white;
+}
+
+.lead {
+	color: whitesmoke;
+}
+
+.more-info {
+	margin-top: 1.25em;
+	background-color: #171717;
+	color: whitesmoke;
+	padding: 2.6875em 3.125em 2.6875em 3.125em;
+}
+
+.navbar {
+	background-color: #121212;
+}
+
+
+
+
+/* Make sure that padding behaves as expected */
+* {
+	box-sizing: border-box
+}
+
+/* Container for skill bars */
+.skills-container {
+	width: 70%;
+	/* Full width */
+	background-color: #ddd;
+	/* Grey background */
+}
+
+.skills {
+	text-align: right;
+	/* Right-align text */
+	padding-top: 10px;
+	/* Add top padding */
+	padding-bottom: 10px;
+	/* Add bottom padding */
+	color: white;
+	/* White text color */
+}
+
+.html {
+	width: 90%;
+	background-color: #4CAF50;
+}
+
+/* Green */
+.css {
+	width: 60%;
+	background-color: #2196F3;
+}
+
+/* Blue */
+.js {
+	width: 70%;
+	background-color: #f44336;
+}
+
+/* Red */
+.python {
+	width: 80%;
+	background-color: yellow;
+}
+
+.sql {
+	width: 70%;
+	background-color: purple;
+}
+
+.node {
+	width: 45%;
+	background-color: seagreen;
+}
+
+.mongodb {
+	width: 50%;
+	background-color: burlywood;
+}
+
+/* Dark Grey */
+
+
+.skill-name {
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.education {
+	margin-top: 20%;
+
 }
